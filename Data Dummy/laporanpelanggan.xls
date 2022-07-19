@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<form method="post">
+		<div class="row justify-content-md-center">
+			<div class="col-md-10 align-items-center">
+				<div class="card" style="margin-top:5%">
+					<div class="card-header badge-primary">
+						<center>Data Pelanggan</center>
+					</div>
+					<div class="card-body">
+						<table class="table table-hover" align="center">
+							<thead>
+								<tr>
+									<th scope="col" class="text-center">Id Pelanggan</th>
+									<th scope="col" class="text-center">No Meter</th>
+									<th scope="col" class="text-center">Nama</th>
+									<th scope="col" class="text-center">Password</th>
+									<th scope="col" class="text-center">Alamat</th>
+									<th scope="col" class="text-center">Tanggal Pendaftaran</th>
+									<th scope="col" class="text-center">Id Tarif</th>
+									<th scope="col" class="text-center">Daya</th>
+									<th scope="col" class="text-center">Tarif/Kwh</th>
+									<th scope="col" class="text-center">Denda Pembayaran</th>
+								</tr>
+							</thead>
+							<tbody>
+																<tr>
+									<td scope="col" class="text-center">PN00001</td>
+									<td scope="col" class="text-center">86008470337</td>
+									<td scope="col" class="text-center">Kevin Rizki</td>
+									<td scope="col" class="text-center">rizki</td>
+									<td scope="col" class="text-center">Jl. Lawang Gintung Kp. Sawah Rt. 02 Rw. 05 No. 11 Kec. Bogor Selatan, Kota Bogor</td>
+									<td scope="col" class="text-center">2017-08-15</td>
+									<td scope="col" class="text-center">TF00002</td>
+									<td scope="col" class="text-center">900 VA</td>
+									<td scope="col" class="text-center">Rp. 1352/Kwh</td>
+									<td scope="col" class="text-center">Rp. 3000</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PN00002</td>
+									<td scope="col" class="text-center">86004490310</td>
+									<td scope="col" class="text-center">Gyandi Fergiliawan</td>
+									<td scope="col" class="text-center">123</td>
+									<td scope="col" class="text-center">Jl Komplek Telkom Mulyaharja Rt. 01 Rw 02 No. 08, Cibeureum Bogor, Bogor Selatan, Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">2017-10-03</td>
+									<td scope="col" class="text-center">TF00003</td>
+									<td scope="col" class="text-center">1300 VA</td>
+									<td scope="col" class="text-center">Rp. 1467/Kwh</td>
+									<td scope="col" class="text-center">Rp. 5000</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PN00003</td>
+									<td scope="col" class="text-center">86103270094</td>
+									<td scope="col" class="text-center">Dicki Fadillah</td>
+									<td scope="col" class="text-center">dicki</td>
+									<td scope="col" class="text-center">Jl. Jalan Roda gg. Belong Kp. Lebak Pasar Rt. 07 Rw. 02 no. 15, Kec. Bogor Tengah, Kota Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">2017-11-26</td>
+									<td scope="col" class="text-center">TF00001</td>
+									<td scope="col" class="text-center">450 VA</td>
+									<td scope="col" class="text-center">Rp. 415/Kwh</td>
+									<td scope="col" class="text-center">Rp. 3000</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PN00004</td>
+									<td scope="col" class="text-center">86521522094</td>
+									<td scope="col" class="text-center">Fherdy Lianza</td>
+									<td scope="col" class="text-center">lianza</td>
+									<td scope="col" class="text-center">Jl. Bangkong Reang Kp. Rt. 11 Rw. 04 no. 03, Bangkong Reang , Sukasirna, Jonggol, Kab. Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">2018-01-07</td>
+									<td scope="col" class="text-center">TF00004</td>
+									<td scope="col" class="text-center">2200 VA</td>
+									<td scope="col" class="text-center">Rp. 1467/Kwh</td>
+									<td scope="col" class="text-center">Rp. 10000</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PN00005</td>
+									<td scope="col" class="text-center">86509120710</td>
+									<td scope="col" class="text-center">Hafidz Yusuf</td>
+									<td scope="col" class="text-center">yusuf</td>
+									<td scope="col" class="text-center">Jl. Raya Wangun Gg. Medika Rt. 02 Rw. 01 No 05, Bogor Timur, Sindangsari, Bogor Tim., Kota Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">2018-01-22</td>
+									<td scope="col" class="text-center">TF00005</td>
+									<td scope="col" class="text-center">3500 VA</td>
+									<td scope="col" class="text-center">Rp. 1467/Kwh</td>
+									<td scope="col" class="text-center">Rp. 50000</td>
+								</tr>
+															</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery-1.11.2.min.js"></script>
+</html>

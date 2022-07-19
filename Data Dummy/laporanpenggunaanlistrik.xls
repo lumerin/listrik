@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<form method="post">
+		<div class="row justify-content-md-center">
+			<div class="col-md-10 align-items-center">
+				<div class="card" style="margin-top:5%">
+					<div class="card-header badge-primary">
+						<center>Laporan Penggunaan Listrik</center>
+					</div>
+						<table class="table table-hover" align="center">
+							<thead>
+								<tr>
+									<th scope="col" class="text-center">Id Tagihan</th>
+									<th scope="col" class="text-center">Id Pelanggan</th>
+									<th scope="col" class="text-center">No Meter</th>
+									<th scope="col" class="text-center">Nama</th>
+									<th scope="col" class="text-center">Alamat</th>
+									<th scope="col" class="text-center">Bulan</th>
+									<th scope="col" class="text-center">Tahun</th>
+									<th scope="col" class="text-center">Meter Awal</th>
+									<th scope="col" class="text-center">Meter Akhir</th>
+								</tr>
+							</thead>
+							<tbody>
+																<tr>
+									<td scope="col" class="text-center">PG00001</td>
+									<td scope="col" class="text-center">PN00001</td>
+									<td scope="col" class="text-center">86008470337</td>
+									<td scope="col" class="text-center">Kevin Rizki</td>
+									<td scope="col" class="text-center">Jl. Lawang Gintung Kp. Sawah Rt. 02 Rw. 05 No. 11 Kec. Bogor Selatan, Kota Bogor</td>
+									<td scope="col" class="text-center">9</td>
+									<td scope="col" class="text-center">2017</td>
+									<td scope="col" class="text-center">0 Kwh</td>
+									<td scope="col" class="text-center">276 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00002</td>
+									<td scope="col" class="text-center">PN00001</td>
+									<td scope="col" class="text-center">86008470337</td>
+									<td scope="col" class="text-center">Kevin Rizki</td>
+									<td scope="col" class="text-center">Jl. Lawang Gintung Kp. Sawah Rt. 02 Rw. 05 No. 11 Kec. Bogor Selatan, Kota Bogor</td>
+									<td scope="col" class="text-center">10</td>
+									<td scope="col" class="text-center">2017</td>
+									<td scope="col" class="text-center">276 Kwh</td>
+									<td scope="col" class="text-center">619 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00003</td>
+									<td scope="col" class="text-center">PN00001</td>
+									<td scope="col" class="text-center">86008470337</td>
+									<td scope="col" class="text-center">Kevin Rizki</td>
+									<td scope="col" class="text-center">Jl. Lawang Gintung Kp. Sawah Rt. 02 Rw. 05 No. 11 Kec. Bogor Selatan, Kota Bogor</td>
+									<td scope="col" class="text-center">11</td>
+									<td scope="col" class="text-center">2017</td>
+									<td scope="col" class="text-center">619 Kwh</td>
+									<td scope="col" class="text-center">872 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00004</td>
+									<td scope="col" class="text-center">PN00002</td>
+									<td scope="col" class="text-center">86004490310</td>
+									<td scope="col" class="text-center">Gyandi Fergiliawan</td>
+									<td scope="col" class="text-center">Jl Komplek Telkom Mulyaharja Rt. 01 Rw 02 No. 08, Cibeureum Bogor, Bogor Selatan, Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">11</td>
+									<td scope="col" class="text-center">2017</td>
+									<td scope="col" class="text-center">0 Kwh</td>
+									<td scope="col" class="text-center">313 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00005</td>
+									<td scope="col" class="text-center">PN00003</td>
+									<td scope="col" class="text-center">86103270094</td>
+									<td scope="col" class="text-center">Dicki Fadillah</td>
+									<td scope="col" class="text-center">Jl. Jalan Roda gg. Belong Kp. Lebak Pasar Rt. 07 Rw. 02 no. 15, Kec. Bogor Tengah, Kota Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">12</td>
+									<td scope="col" class="text-center">2017</td>
+									<td scope="col" class="text-center">0 Kwh</td>
+									<td scope="col" class="text-center">287 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00006</td>
+									<td scope="col" class="text-center">PN00001</td>
+									<td scope="col" class="text-center">86008470337</td>
+									<td scope="col" class="text-center">Kevin Rizki</td>
+									<td scope="col" class="text-center">Jl. Lawang Gintung Kp. Sawah Rt. 02 Rw. 05 No. 11 Kec. Bogor Selatan, Kota Bogor</td>
+									<td scope="col" class="text-center">12</td>
+									<td scope="col" class="text-center">2017</td>
+									<td scope="col" class="text-center">872 Kwh</td>
+									<td scope="col" class="text-center">1092 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00007</td>
+									<td scope="col" class="text-center">PN00002</td>
+									<td scope="col" class="text-center">86004490310</td>
+									<td scope="col" class="text-center">Gyandi Fergiliawan</td>
+									<td scope="col" class="text-center">Jl Komplek Telkom Mulyaharja Rt. 01 Rw 02 No. 08, Cibeureum Bogor, Bogor Selatan, Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">12</td>
+									<td scope="col" class="text-center">2017</td>
+									<td scope="col" class="text-center">313 Kwh</td>
+									<td scope="col" class="text-center">681 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00008</td>
+									<td scope="col" class="text-center">PN00001</td>
+									<td scope="col" class="text-center">86008470337</td>
+									<td scope="col" class="text-center">Kevin Rizki</td>
+									<td scope="col" class="text-center">Jl. Lawang Gintung Kp. Sawah Rt. 02 Rw. 05 No. 11 Kec. Bogor Selatan, Kota Bogor</td>
+									<td scope="col" class="text-center">1</td>
+									<td scope="col" class="text-center">2018</td>
+									<td scope="col" class="text-center">1092 Kwh</td>
+									<td scope="col" class="text-center">1326 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00009</td>
+									<td scope="col" class="text-center">PN00002</td>
+									<td scope="col" class="text-center">86004490310</td>
+									<td scope="col" class="text-center">Gyandi Fergiliawan</td>
+									<td scope="col" class="text-center">Jl Komplek Telkom Mulyaharja Rt. 01 Rw 02 No. 08, Cibeureum Bogor, Bogor Selatan, Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">1</td>
+									<td scope="col" class="text-center">2018</td>
+									<td scope="col" class="text-center">681 Kwh</td>
+									<td scope="col" class="text-center">840 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00010</td>
+									<td scope="col" class="text-center">PN00003</td>
+									<td scope="col" class="text-center">86103270094</td>
+									<td scope="col" class="text-center">Dicki Fadillah</td>
+									<td scope="col" class="text-center">Jl. Jalan Roda gg. Belong Kp. Lebak Pasar Rt. 07 Rw. 02 no. 15, Kec. Bogor Tengah, Kota Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">1</td>
+									<td scope="col" class="text-center">2018</td>
+									<td scope="col" class="text-center">287 Kwh</td>
+									<td scope="col" class="text-center">578 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00011</td>
+									<td scope="col" class="text-center">PN00004</td>
+									<td scope="col" class="text-center">86521522094</td>
+									<td scope="col" class="text-center">Fherdy Lianza</td>
+									<td scope="col" class="text-center">Jl. Bangkong Reang Kp. Rt. 11 Rw. 04 no. 03, Bangkong Reang , Sukasirna, Jonggol, Kab. Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">2</td>
+									<td scope="col" class="text-center">2018</td>
+									<td scope="col" class="text-center">0 Kwh</td>
+									<td scope="col" class="text-center">219 Kwh</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PG00012</td>
+									<td scope="col" class="text-center">PN00005</td>
+									<td scope="col" class="text-center">86509120710</td>
+									<td scope="col" class="text-center">Hafidz Yusuf</td>
+									<td scope="col" class="text-center">Jl. Raya Wangun Gg. Medika Rt. 02 Rw. 01 No 05, Bogor Timur, Sindangsari, Bogor Tim., Kota Bogor, Jawa Barat</td>
+									<td scope="col" class="text-center">2</td>
+									<td scope="col" class="text-center">2018</td>
+									<td scope="col" class="text-center">0 Kwh</td>
+									<td scope="col" class="text-center">368 Kwh</td>
+								</tr>
+															</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery-1.11.2.min.js"></script>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<form method="post">
+		<div class="row justify-content-md-center">
+			<div class="col-md-12 align-items-center">
+				<div class="card" style="margin-top:5%">
+					<div class="card-header badge-primary">
+						<center>Laporan Pembayaran Listrik</center>
+					</div>
+					<div class="card-body">
+						<table class="table table-hover" align="center">
+							<thead>
+								<tr>
+									<th scope="col" class="text-center">Id Pembayaran</th>
+									<th scope="col" class="text-center">Id Tagihan</th>
+									<th scope="col" class="text-center">Tanggal Pembayaran</th>
+									<th scope="col" class="text-center">Denda</th>
+									<th scope="col" class="text-center">Biaya Admin</th>
+									<th scope="col" class="text-center">Total Pembayaran</th>
+									<th scope="col" class="text-center">Atas Nama</th>
+									<th scope="col" class="text-center">No Rekening</th>
+									<th scope="col" class="text-center">Bukti Pembayaran</th>
+									<th scope="col" class="text-center">Status</th>
+								</tr>
+							</thead>
+							<tbody>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204065</td>
+									<td scope="col" class="text-center">TN00001</td>
+									<td scope="col" class="text-center">2018-02-02</td>
+									<td scope="col" class="text-center">Rp. 12000</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 387152</td>
+									<td scope="col" class="text-center">387152Kevin Rizki</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204071</td>
+									<td scope="col" class="text-center">TN00002</td>
+									<td scope="col" class="text-center">2018-02-02</td>
+									<td scope="col" class="text-center">Rp. 9000</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 474736</td>
+									<td scope="col" class="text-center">474736Kevin Rizki</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204072</td>
+									<td scope="col" class="text-center">TN00003</td>
+									<td scope="col" class="text-center">2018-02-02</td>
+									<td scope="col" class="text-center">Rp. 6000</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 350056</td>
+									<td scope="col" class="text-center">350056Kevin Rizki</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204073</td>
+									<td scope="col" class="text-center">TN00006</td>
+									<td scope="col" class="text-center">2018-02-02</td>
+									<td scope="col" class="text-center">Rp. 3000</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 302440</td>
+									<td scope="col" class="text-center">302440Kevin Rizki</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204075</td>
+									<td scope="col" class="text-center">TN00008</td>
+									<td scope="col" class="text-center">0000-00-00</td>
+									<td scope="col" class="text-center">Rp. 0</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 318368</td>
+									<td scope="col" class="text-center">Kevin Rizki</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204121</td>
+									<td scope="col" class="text-center">TN00004</td>
+									<td scope="col" class="text-center">2018-02-02</td>
+									<td scope="col" class="text-center">Rp. 10000</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 471171</td>
+									<td scope="col" class="text-center">471171Azzahra Gyanika</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204122</td>
+									<td scope="col" class="text-center">TN00007</td>
+									<td scope="col" class="text-center">2018-02-02</td>
+									<td scope="col" class="text-center">Rp. 5000</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 546856</td>
+									<td scope="col" class="text-center">546856Azzahra Gyanika</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204125</td>
+									<td scope="col" class="text-center">TN00009</td>
+									<td scope="col" class="text-center">0000-00-00</td>
+									<td scope="col" class="text-center">Rp. 0</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 235253</td>
+									<td scope="col" class="text-center">Azzahra Gyanika</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204134</td>
+									<td scope="col" class="text-center">TN00005</td>
+									<td scope="col" class="text-center">2018-02-02</td>
+									<td scope="col" class="text-center">Rp. 3000</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 124105</td>
+									<td scope="col" class="text-center">124105Dicki Fadillah</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204135</td>
+									<td scope="col" class="text-center">TN00010</td>
+									<td scope="col" class="text-center">0000-00-00</td>
+									<td scope="col" class="text-center">Rp. 0</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 122765</td>
+									<td scope="col" class="text-center">Dicki Fadillah</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Terverifikasi</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204172</td>
+									<td scope="col" class="text-center">TN00011</td>
+									<td scope="col" class="text-center">0000-00-00</td>
+									<td scope="col" class="text-center">Rp. 0</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 323273</td>
+									<td scope="col" class="text-center">Fherdy Lianza</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Ditolak</td>
+								</tr>
+																<tr>
+									<td scope="col" class="text-center">PM2018020204182</td>
+									<td scope="col" class="text-center">TN00012</td>
+									<td scope="col" class="text-center">0000-00-00</td>
+									<td scope="col" class="text-center">Rp. 0</td>
+									<td scope="col" class="text-center">Rp. 2000</td>
+									<td scope="col" class="text-center">Rp. 541856</td>
+									<td scope="col" class="text-center">Hafidz Yusuf</td>
+									<td scope="col" class="text-center">2147483647</td>
+									<td scope="col" class="text-center"><img src="../foto/bukti_pembayarantransfer_mandiri1.jpg" width="200"></td>
+								 	<td scope="col" class="text-center">Ditolak</td>
+								</tr>
+															</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery-1.11.2.min.js"></script>
+</html>
